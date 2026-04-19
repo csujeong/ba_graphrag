@@ -1,0 +1,47 @@
+# ── 크롤링 & 파싱 ──────────────────────────────
+selenium==4.18.1
+webdriver-manager==4.0.1
+beautifulsoup4==4.12.3
+lxml==5.1.0
+pymupdf==1.24.1
+pdfplumber==0.11.0
+
+# ── 그래프 DB ───────────────────────────────────
+neo4j==5.18.0
+py2neo==2021.2.4
+
+# ── 벡터 DB ─────────────────────────────────────
+chromadb==0.4.24
+
+# ── 임베딩 & NLP ────────────────────────────────
+sentence-transformers==2.7.0
+spacy==3.7.4
+ko-core-news-lg @ https://github.com/explosion/spacy-models/releases/download/ko_core_news_lg-3.7.0/ko_core_news_lg-3.7.0-py3-none-any.whl
+
+# ── LLM ─────────────────────────────────────────
+openai==1.30.1
+langchain==0.2.1
+langchain-openai==0.1.8
+langchain-community==0.2.1
+tiktoken==0.7.0
+
+# ── API 서버 ─────────────────────────────────────
+fastapi==0.111.0
+uvicorn==0.29.0
+pydantic==2.7.1
+
+# ── UI ──────────────────────────────────────────
+streamlit==1.35.0
+streamlit-agraph==0.0.45
+plotly==5.22.0
+
+# ── 유틸리티 ────────────────────────────────────
+python-dotenv==1.0.1
+pyyaml==6.0.1
+tqdm==4.66.4
+pandas==2.2.2
+numpy==1.26.4
+requests==2.31.0
+httpx==0.27.0
+loguru==0.7.2
+rich==13.7.1
